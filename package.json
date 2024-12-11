@@ -1,0 +1,33 @@
+{
+  "name": "@starknet-attestation-service/sas-sdk",
+  "version": "1.0.0",
+  "description": "SDK for starknet-attestation-service on StarkNet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0",
+    "start": "nodemon example/usage.js"
+  },
+  "keywords": [
+    "starknet",
+    "sdk",
+    "blockchain",
+    "attestation-services",
+    "zk-rollups",
+    "smart-contract"
+  ],
+  "author": "SAS Team",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^3.1.7",
+    "starknet": "^6.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/schema-registry-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/schema-registry-sdk/issues"
+  },
+  "homepage": "https://github.com/yourusername/schema-registry-sdk#readme"
+}
